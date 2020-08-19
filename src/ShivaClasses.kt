@@ -1,3 +1,3 @@
-data class ShivaPosition (val left: Int, val right: Int, val leg: Int = 0, val legMode:Int = 0)
+data class ShivaPosition (val right: Int, val left: Int, val leg: Int = 0, val legMode:Int = 0)
 
 
