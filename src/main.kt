@@ -17,7 +17,7 @@ fun translateMove(move: String, pose: Int): Int {
     if (move in positions.keys ) return positions[move]?:0
     if (pose % 2 == 0) return 0
     if (move in moves.keys) return (pose + (moves[move]?:0)) and 23
-    return 0
+    return pose
 }
 
 val positions = mapOf<String, Int>("0" to 0, "1" to 1, "2" to 3, "3" to 5, "4" to 7, "5" to 17,
